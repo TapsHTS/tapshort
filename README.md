@@ -1,7 +1,27 @@
 # tapshort 🎬
 
-## Short URL
+## Short URL [(demo)](https://tapss.cf)
 
-![image](https://user-images.githubusercontent.com/61658427/177517976-ce1b18f1-2c55-4130-8d11-2254a3a9d3aa.png)
+![Capture d’écran 2022-07-06 123127](https://user-images.githubusercontent.com/61658427/177566401-ca48eaf1-f650-4647-9e99-8609ba7eb6f8.png)
 
-## Configurer une base de donnée SQL
+## Configuration
+
+```js
+//index.js
+var connection = mysql.createConnection({
+    host: '',
+    user: '',
+    password: '',
+    database: ''
+});
+var port = 8989
+```
+and create a sql table entitle `url`
+
+## Need help ?
+
+1- Check the [wiki](https://github.com/TapsHTS/tapshort/wiki) 
+
+2- Come to this [Discord](https://discord.gg/Qx9KUjnezf)
+
+## Enjoy you to short your url on http://localhost:8989 now !
