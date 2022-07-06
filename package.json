@@ -1,0 +1,32 @@
+{
+  "name": "tapshort",
+  "version": "1.0.0",
+  "description": "URL Cutter",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon .",
+    "git": "git add . && git commit -m",
+    "postgit": "git push --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapshts/tapshort.git"
+  },
+  "keywords": [
+    "short",
+    "url"
+  ],
+  "author": "TapsHTS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tapshts/tapshort/issues"
+  },
+  "homepage": "https://github.com/tapshts/tapshort#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chalk": "^4.1.2",
+    "dayjs": "^1.10.7",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
